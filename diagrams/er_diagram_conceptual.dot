@@ -1,0 +1,110 @@
+digraph WNOS_ER_CONCEPTUAL {
+  graph [rankdir=LR, splines=spline, nodesep=0.28, ranksep=2.6,
+         fontname="Helvetica", bgcolor="white", pad=0.4];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica-Bold",
+         fontsize=15, height=0.55, margin="0.22,0.12", penwidth=1.8];
+  edge  [color="#5A6472", penwidth=1.4, arrowsize=0.9];
+  labelloc="t";
+  label=<<FONT POINT-SIZE="30"><B>Warehouse Network Optimization System</B></FONT><BR/><FONT POINT-SIZE="16">Conceptual Entity-Relationship Model  &#183;  26 Entities across 7 Functional Modules</FONT><BR/> >;
+  subgraph cluster_geo {
+    label=<<FONT POINT-SIZE="16" COLOR="#1F4E79"><B>MODULE 1  GEOGRAPHY AND NETWORK MASTER</B></FONT>>;
+    style="rounded,filled"; fillcolor="#F4F9FD"; color="#1F4E79"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    region [label="REGION", fillcolor="#DBE9F5", color="#1F4E79", fontcolor="#1F4E79"];
+    location [label="LOCATION", fillcolor="#DBE9F5", color="#1F4E79", fontcolor="#1F4E79"];
+    warehouse [label="WAREHOUSE", fillcolor="#DBE9F5", color="#1F4E79", fontcolor="#1F4E79"];
+    warehouse_zone [label="WAREHOUSE_ZONE", fillcolor="#DBE9F5", color="#1F4E79", fontcolor="#1F4E79"];
+  }
+  subgraph cluster_prod {
+    label=<<FONT POINT-SIZE="16" COLOR="#8A5A2B"><B>MODULE 2  PRODUCT AND SUPPLY MASTER</B></FONT>>;
+    style="rounded,filled"; fillcolor="#FDF8F2"; color="#8A5A2B"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    product_category [label="PRODUCT_CATEGORY", fillcolor="#F3E5D5", color="#8A5A2B", fontcolor="#8A5A2B"];
+    product [label="PRODUCT", fillcolor="#F3E5D5", color="#8A5A2B", fontcolor="#8A5A2B"];
+    supplier [label="SUPPLIER", fillcolor="#F3E5D5", color="#8A5A2B", fontcolor="#8A5A2B"];
+    supplier_product [label="SUPPLIER_PRODUCT", fillcolor="#F3E5D5", color="#8A5A2B", fontcolor="#8A5A2B"];
+    customer [label="CUSTOMER", fillcolor="#F3E5D5", color="#8A5A2B", fontcolor="#8A5A2B"];
+  }
+  subgraph cluster_inv {
+    label=<<FONT POINT-SIZE="16" COLOR="#2E6F40"><B>MODULE 3  INVENTORY</B></FONT>>;
+    style="rounded,filled"; fillcolor="#F3FAF5"; color="#2E6F40"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    inventory [label="INVENTORY", fillcolor="#DCEFE2", color="#2E6F40", fontcolor="#2E6F40"];
+    inventory_transaction [label="INVENTORY_TRANSACTION", fillcolor="#DCEFE2", color="#2E6F40", fontcolor="#2E6F40"];
+  }
+  subgraph cluster_ord {
+    label=<<FONT POINT-SIZE="16" COLOR="#6B3FA0"><B>MODULE 4  DEMAND, ORDERS AND FULFILMENT</B></FONT>>;
+    style="rounded,filled"; fillcolor="#FAF5FD"; color="#6B3FA0"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    customer_order [label="CUSTOMER_ORDER", fillcolor="#ECE0F3", color="#6B3FA0", fontcolor="#6B3FA0"];
+    order_line [label="ORDER_LINE", fillcolor="#ECE0F3", color="#6B3FA0", fontcolor="#6B3FA0"];
+    order_fulfilment [label="ORDER_FULFILMENT", fillcolor="#ECE0F3", color="#6B3FA0", fontcolor="#6B3FA0"];
+    demand_forecast [label="DEMAND_FORECAST", fillcolor="#ECE0F3", color="#6B3FA0", fontcolor="#6B3FA0"];
+  }
+  subgraph cluster_trans {
+    label=<<FONT POINT-SIZE="16" COLOR="#9C6A12"><B>MODULE 5  TRANSPORTATION NETWORK</B></FONT>>;
+    style="rounded,filled"; fillcolor="#FEFAF1"; color="#9C6A12"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    carrier [label="CARRIER", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+    vehicle [label="VEHICLE", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+    transport_lane [label="TRANSPORT_LANE", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+    shipment [label="SHIPMENT", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+    shipment_line [label="SHIPMENT_LINE", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+    stock_transfer [label="STOCK_TRANSFER", fillcolor="#FBF0D9", color="#9C6A12", fontcolor="#9C6A12"];
+  }
+  subgraph cluster_opt {
+    label=<<FONT POINT-SIZE="16" COLOR="#A83232"><B>MODULE 6  OPTIMIZATION ENGINE</B></FONT>>;
+    style="rounded,filled"; fillcolor="#FEF6F6"; color="#A83232"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    optimization_scenario [label="OPTIMIZATION_SCENARIO", fillcolor="#F8DCDC", color="#A83232", fontcolor="#A83232"];
+    optimization_run [label="OPTIMIZATION_RUN", fillcolor="#F8DCDC", color="#A83232", fontcolor="#A83232"];
+    optimization_result [label="OPTIMIZATION_RESULT", fillcolor="#F8DCDC", color="#A83232", fontcolor="#A83232"];
+    kpi_snapshot [label="KPI_SNAPSHOT", fillcolor="#F8DCDC", color="#A83232", fontcolor="#A83232"];
+  }
+  subgraph cluster_admin {
+    label=<<FONT POINT-SIZE="16" COLOR="#4A5568"><B>MODULE 7  SECURITY</B></FONT>>;
+    style="rounded,filled"; fillcolor="#F7F9FB"; color="#4A5568"; penwidth=2.4;
+    labeljust="l"; margin=16;
+    app_user [label="APP_USER", fillcolor="#E2E8F0", color="#4A5568", fontcolor="#4A5568"];
+  }
+  // relationships
+  region -> location [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  location -> warehouse [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> warehouse_zone [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product_category -> product [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product_category -> product_category [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+  location -> supplier [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  supplier -> supplier_product [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> supplier_product [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  location -> customer [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> inventory [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> inventory [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse_zone -> inventory [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+  inventory -> inventory_transaction [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  customer -> customer_order [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  customer_order -> order_line [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> order_line [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  customer_order -> order_fulfilment [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> order_fulfilment [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> demand_forecast [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> demand_forecast [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  carrier -> vehicle [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  location -> transport_lane [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  location -> transport_lane [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  transport_lane -> shipment [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  carrier -> shipment [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  vehicle -> shipment [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+  warehouse -> shipment [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  shipment -> shipment_line [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  order_line -> shipment_line [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> stock_transfer [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> stock_transfer [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> stock_transfer [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  shipment -> stock_transfer [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+  optimization_scenario -> optimization_run [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  optimization_run -> optimization_result [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> optimization_result [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  product -> optimization_result [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+  warehouse -> kpi_snapshot [dir=both, arrowtail=teetee, arrowhead=crowtee, style=solid];
+  warehouse -> app_user [dir=both, arrowtail=teetee, arrowhead=crowodot, style=dashed];
+}

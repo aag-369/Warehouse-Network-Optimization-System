@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1372" viewBox="0 0 2000 1372">
+<rect width="2000" height="1372" fill="#FFFFFF"/>
+<defs>
+  <marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5"
+          markerHeight="6.5" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#2F4858"/></marker>
+  <marker id="au" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5"
+          markerHeight="6.5" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#93A7A2"/></marker>
+  <marker id="ae" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6"
+          markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#9C6A12"/></marker>
+  <marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6"
+          markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#6B3FA0"/></marker>
+</defs>
+<text x="44" y="70" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="34" fill="#12312F" text-anchor="start" font-weight="700">Warehouse Network Optimization System</text>
+<text x="44" y="100" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="15.5" fill="#61756F" text-anchor="start">System Architecture  ·  Six-Layer Model with Cross-Cutting Concerns and External Interfaces</text>
+<text x="1956" y="66" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="14" fill="#0F3D3E" text-anchor="end" font-weight="700">MySQL 8.0  ·  InnoDB</text>
+<text x="1956" y="86" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#61756F" text-anchor="end">26 tables  ·  39 foreign keys  ·  32 CHECK constraints</text>
+<text x="1956" y="103" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#61756F" text-anchor="end">3 views  ·  13 indexes  ·  25 analytical queries</text>
+<rect x="306" y="156" width="1358" height="114" rx="12" ry="12" fill="#EEF1F4" stroke="#5B6B7A" stroke-width="1.6"/>
+<circle cx="332" cy="177" r="11" fill="#5B6B7A" stroke="none"/>
+<text x="332" y="181.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">1</text>
+<text x="351" y="181.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#5B6B7A" text-anchor="start" font-weight="700" letter-spacing="0.6">USERS AND ACCESS ROLES</text>
+<text x="1646" y="181.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">Authenticated against app_user  ·  every session resolved to a role and, where relevant, a single warehouse_id</text>
+<rect x="306" y="316" width="1358" height="132" rx="12" ry="12" fill="#E8F3F2" stroke="#2C7A7B" stroke-width="1.6"/>
+<circle cx="332" cy="337" r="11" fill="#2C7A7B" stroke="none"/>
+<text x="332" y="341.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">2</text>
+<text x="351" y="341.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#2C7A7B" text-anchor="start" font-weight="700" letter-spacing="0.6">PRESENTATION LAYER</text>
+<text x="1646" y="341.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">HTML5  ·  CSS3  ·  JavaScript ES6  ·  Chart.js  ·  Leaflet.js  ·  responsive</text>
+<rect x="306" y="494" width="1358" height="150" rx="12" ry="12" fill="#E9F1F9" stroke="#2B6CB0" stroke-width="1.6"/>
+<circle cx="332" cy="515" r="11" fill="#2B6CB0" stroke="none"/>
+<text x="332" y="519.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">3</text>
+<text x="351" y="519.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#2B6CB0" text-anchor="start" font-weight="700" letter-spacing="0.6">APPLICATION / SERVICE LAYER</text>
+<text x="1646" y="519.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">Python 3 (Flask) or Java (Spring Boot)  ·  REST / JSON  ·  one service per functional module</text>
+<rect x="306" y="690" width="1358" height="182" rx="12" ry="12" fill="#FAEBEB" stroke="#A83232" stroke-width="1.6"/>
+<circle cx="332" cy="711" r="11" fill="#A83232" stroke="none"/>
+<text x="332" y="715.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">4</text>
+<text x="351" y="715.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#A83232" text-anchor="start" font-weight="700" letter-spacing="0.6">OPTIMIZATION AND ANALYTICS ENGINE</text>
+<text x="1646" y="715.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">PuLP + CBC solver  ·  SciPy  ·  scikit-learn  ·  statsmodels  ·  NumPy / pandas</text>
+<rect x="306" y="918" width="1358" height="122" rx="12" ry="12" fill="#F7EFE5" stroke="#8A5A2B" stroke-width="1.6"/>
+<circle cx="332" cy="939" r="11" fill="#8A5A2B" stroke="none"/>
+<text x="332" y="943.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">5</text>
+<text x="351" y="943.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#8A5A2B" text-anchor="start" font-weight="700" letter-spacing="0.6">DATA ACCESS LAYER</text>
+<text x="1646" y="943.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">SQLAlchemy / JDBC  ·  prepared statements  ·  pooled connections  ·  injection-safe</text>
+<rect x="306" y="1086" width="1358" height="214" rx="12" ry="12" fill="#E5EFEE" stroke="#0F3D3E" stroke-width="1.6"/>
+<circle cx="332" cy="1107" r="11" fill="#0F3D3E" stroke="none"/>
+<text x="332" y="1111.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#FFFFFF" text-anchor="middle" font-weight="700">6</text>
+<text x="351" y="1111.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="13.5" fill="#0F3D3E" text-anchor="start" font-weight="700" letter-spacing="0.6">DATABASE LAYER  —  SYSTEM OF RECORD</text>
+<text x="1646" y="1111.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="end">MySQL 8.0  ·  InnoDB  ·  utf8mb4_unicode_ci  ·  constraints enforced inside the engine</text>
+<rect x="320.0" y="192" width="256.4" height="66" rx="8" ry="8" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.3"/>
+<text x="331.0" y="212" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Network Planner</text>
+<text x="331.0" y="230.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Runs scenarios, approves siting</text>
+<text x="331.0" y="248" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#5B6B7A" text-anchor="start" font-style="italic">NETWORK_PLANNER</text>
+<rect x="588.4" y="192" width="256.4" height="66" rx="8" ry="8" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.3"/>
+<text x="599.4" y="212" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Warehouse Manager</text>
+<text x="599.4" y="230.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Scoped to one warehouse_id</text>
+<text x="599.4" y="248" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#5B6B7A" text-anchor="start" font-style="italic">WAREHOUSE_MANAGER</text>
+<rect x="856.8" y="192" width="256.4" height="66" rx="8" ry="8" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.3"/>
+<text x="867.8" y="212" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Inventory Analyst</text>
+<text x="867.8" y="230.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Forecasts, reorder policy, KPI</text>
+<text x="867.8" y="248" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#5B6B7A" text-anchor="start" font-style="italic">ANALYST</text>
+<rect x="1125.1999999999998" y="192" width="256.4" height="66" rx="8" ry="8" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.3"/>
+<text x="1136.1999999999998" y="212" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">System Administrator</text>
+<text x="1136.1999999999998" y="230.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Users, roles, master data</text>
+<text x="1136.1999999999998" y="248" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#5B6B7A" text-anchor="start" font-style="italic">ADMIN</text>
+<rect x="1393.6" y="192" width="256.4" height="66" rx="8" ry="8" fill="#FFFFFF" stroke="#5B6B7A" stroke-width="1.3"/>
+<text x="1404.6" y="212" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Executive Viewer</text>
+<text x="1404.6" y="230.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Read-only dashboards</text>
+<text x="1404.6" y="248" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#5B6B7A" text-anchor="start" font-style="italic">VIEWER</text>
+<rect x="320.0" y="354" width="256.4" height="86" rx="8" ry="8" fill="#FFFFFF" stroke="#2C7A7B" stroke-width="1.3"/>
+<text x="331.0" y="374" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Network Dashboard</text>
+<text x="331.0" y="392.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Geo map of nodes and lanes</text>
+<text x="331.0" y="404.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Scenario builder and comparison</text>
+<text x="331.0" y="430" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2C7A7B" text-anchor="start" font-style="italic">Leaflet.js map</text>
+<rect x="588.4" y="354" width="256.4" height="86" rx="8" ry="8" fill="#FFFFFF" stroke="#2C7A7B" stroke-width="1.3"/>
+<text x="599.4" y="374" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Warehouse Console</text>
+<text x="599.4" y="392.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Stock position by zone</text>
+<text x="599.4" y="404.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Cycle counts, put-away, transfers</text>
+<text x="599.4" y="430" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2C7A7B" text-anchor="start" font-style="italic">operational screen</text>
+<rect x="856.8" y="354" width="256.4" height="86" rx="8" ry="8" fill="#FFFFFF" stroke="#2C7A7B" stroke-width="1.3"/>
+<text x="867.8" y="374" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Order Management UI</text>
+<text x="867.8" y="392.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Order capture and allocation</text>
+<text x="867.8" y="404.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Fulfilment and SLA tracking</text>
+<text x="867.8" y="430" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2C7A7B" text-anchor="start" font-style="italic">transactional screen</text>
+<rect x="1125.1999999999998" y="354" width="256.4" height="86" rx="8" ry="8" fill="#FFFFFF" stroke="#2C7A7B" stroke-width="1.3"/>
+<text x="1136.1999999999998" y="374" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Transportation Desk</text>
+<text x="1136.1999999999998" y="392.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Lane and mode selection</text>
+<text x="1136.1999999999998" y="404.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Shipment build, load factor</text>
+<text x="1136.1999999999998" y="430" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2C7A7B" text-anchor="start" font-style="italic">planning screen</text>
+<rect x="1393.6" y="354" width="256.4" height="86" rx="8" ry="8" fill="#FFFFFF" stroke="#2C7A7B" stroke-width="1.3"/>
+<text x="1404.6" y="374" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">KPI Reporting Portal</text>
+<text x="1404.6" y="392.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Fill rate, OTD, turnover, cost</text>
+<text x="1404.6" y="404.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Export to XLSX and PDF</text>
+<text x="1404.6" y="430" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2C7A7B" text-anchor="start" font-style="italic">Chart.js dashboards</text>
+<rect x="320.0" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="331.0" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">API Gateway</text>
+<text x="331.0" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">REST routing and validation</text>
+<text x="331.0" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Session tokens, rate limiting</text>
+<text x="331.0" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">entry point</text>
+<rect x="543.6666666666666" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="554.6666666666666" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Auth and RBAC</text>
+<text x="554.6666666666666" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">bcrypt hash verification</text>
+<text x="554.6666666666666" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Role and warehouse scoping</text>
+<text x="554.6666666666666" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">→ app_user</text>
+<rect x="767.3333333333333" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="778.3333333333333" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Master Data Service</text>
+<text x="778.3333333333333" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Region, location, warehouse, zone</text>
+<text x="778.3333333333333" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Product, supplier, customer</text>
+<text x="778.3333333333333" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">→ 9 master tables</text>
+<rect x="991.0" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="1002.0" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Fulfilment Service</text>
+<text x="1002.0" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Capture, allocate, reserve</text>
+<text x="1002.0" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Split orders across warehouses</text>
+<text x="1002.0" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">→ customer_order, order_line</text>
+<rect x="1214.6666666666665" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="1225.6666666666665" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Inventory Service</text>
+<text x="1225.6666666666665" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Receipts, issues, adjustments</text>
+<text x="1225.6666666666665" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Inter-warehouse rebalancing</text>
+<text x="1225.6666666666665" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">→ inventory, stock_transfer</text>
+<rect x="1438.3333333333333" y="532" width="211.66666666666666" height="104" rx="8" ry="8" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="1.3"/>
+<text x="1449.3333333333333" y="552" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Transport Service</text>
+<text x="1449.3333333333333" y="570.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Lane pricing and mode choice</text>
+<text x="1449.3333333333333" y="582.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Shipment and load building</text>
+<text x="1449.3333333333333" y="626" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#2B6CB0" text-anchor="start" font-style="italic">→ shipment, transport_lane</text>
+<rect x="320.0" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="331.0" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Demand Forecasting</text>
+<text x="331.0" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">MOVING_AVG · EXP_SMOOTHING</text>
+<text x="331.0" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">ARIMA · SARIMA · LSTM · XGBOOST</text>
+<text x="331.0" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Accuracy tracked as MAPE</text>
+<text x="331.0" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">→ demand_forecast</text>
+<rect x="543.6666666666666" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="554.6666666666666" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Facility Location</text>
+<text x="554.6666666666666" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">MILP siting model</text>
+<text x="554.6666666666666" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">K-Means demand clustering</text>
+<text x="554.6666666666666" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Centre-of-gravity heuristic</text>
+<text x="554.6666666666666" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">OPEN_NEW / CLOSE_FACILITY</text>
+<rect x="767.3333333333333" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="778.3333333333333" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Inventory Policy</text>
+<text x="778.3333333333333" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">EOQ and reorder point</text>
+<text x="778.3333333333333" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Safety stock sizing</text>
+<text x="778.3333333333333" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">ABC / Pareto classification</text>
+<text x="778.3333333333333" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">INCREASE / REDUCE_STOCK</text>
+<rect x="991.0" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="1002.0" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Route and Mode</text>
+<text x="1002.0" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Lane cost ranking by mode</text>
+<text x="1002.0" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Haversine nearest-node assign</text>
+<text x="1002.0" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Weight and cube load build</text>
+<text x="1002.0" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">RE_ROUTE</text>
+<rect x="1214.6666666666665" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="1225.6666666666665" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Metaheuristics</text>
+<text x="1225.6666666666665" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Genetic Algorithm</text>
+<text x="1225.6666666666665" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Simulated Annealing</text>
+<text x="1225.6666666666665" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Particle Swarm Optimisation</text>
+<text x="1225.6666666666665" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">benchmarked against MILP</text>
+<rect x="1438.3333333333333" y="728" width="211.66666666666666" height="136" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.3"/>
+<text x="1449.3333333333333" y="748" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Scenario Manager</text>
+<text x="1449.3333333333333" y="766.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">What-if parameter sets</text>
+<text x="1449.3333333333333" y="778.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Run orchestration</text>
+<text x="1449.3333333333333" y="791.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Convergence and runtime</text>
+<text x="1449.3333333333333" y="854" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#A83232" text-anchor="start" font-style="italic">→ optimization_run / result</text>
+<rect x="320.0" y="956" width="256.4" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.3"/>
+<text x="331.0" y="976" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">DAO / ORM Mapping</text>
+<text x="331.0" y="994.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Entity-to-table mapping</text>
+<text x="331.0" y="1006.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Parameterised statements</text>
+<text x="331.0" y="1022" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#8A5A2B" text-anchor="start" font-style="italic">injection-safe</text>
+<rect x="588.4" y="956" width="256.4" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.3"/>
+<text x="599.4" y="976" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Connection Pool</text>
+<text x="599.4" y="994.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Pooled InnoDB sessions</text>
+<text x="599.4" y="1006.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">Timeout and retry policy</text>
+<text x="599.4" y="1022" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#8A5A2B" text-anchor="start" font-style="italic">throughput control</text>
+<rect x="856.8" y="956" width="256.4" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.3"/>
+<text x="867.8" y="976" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Transaction Manager</text>
+<text x="867.8" y="994.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">ACID boundary per use case</text>
+<text x="867.8" y="1006.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">COMMIT / ROLLBACK, isolation</text>
+<text x="867.8" y="1022" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#8A5A2B" text-anchor="start" font-style="italic">consistency</text>
+<rect x="1125.1999999999998" y="956" width="256.4" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.3"/>
+<text x="1136.1999999999998" y="976" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Reporting Views</text>
+<text x="1136.1999999999998" y="994.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">v_warehouse_master</text>
+<text x="1136.1999999999998" y="1006.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">v_stock_health · v_lane_cost_profile</text>
+<text x="1136.1999999999998" y="1022" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#8A5A2B" text-anchor="start" font-style="italic">3 SQL views</text>
+<rect x="1393.6" y="956" width="256.4" height="76" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.3"/>
+<text x="1404.6" y="976" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12.5" fill="#12312F" text-anchor="start" font-weight="700">Query and Index Planner</text>
+<text x="1404.6" y="994.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">13 secondary indexes</text>
+<text x="1404.6" y="1006.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.8" fill="#61756F" text-anchor="start">EXPLAIN-guided access paths</text>
+<text x="1404.6" y="1022" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="8.6" fill="#8A5A2B" text-anchor="start" font-style="italic">read performance</text>
+<rect x="320.0" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.4"/>
+<rect x="320.0" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#1F4E79" stroke="none"/>
+<rect x="320.0" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#1F4E79" stroke="none"/>
+<text x="329.0" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M1</text>
+<text x="491.57142857142856" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">4 tables</text>
+<text x="329.0" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Geography and Network</text>
+<text x="329.0" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">region · location</text>
+<text x="329.0" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">warehouse · warehouse_zone</text>
+<rect x="511.57142857142856" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#8A5A2B" stroke-width="1.4"/>
+<rect x="511.57142857142856" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#8A5A2B" stroke="none"/>
+<rect x="511.57142857142856" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#8A5A2B" stroke="none"/>
+<text x="520.5714285714286" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M2</text>
+<text x="683.1428571428571" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">5 tables</text>
+<text x="520.5714285714286" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Product and Supply</text>
+<text x="520.5714285714286" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">product_category · product</text>
+<text x="520.5714285714286" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">supplier · supplier_product</text>
+<text x="520.5714285714286" y="1210.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">customer</text>
+<rect x="703.1428571428571" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#2E6F40" stroke-width="1.4"/>
+<rect x="703.1428571428571" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#2E6F40" stroke="none"/>
+<rect x="703.1428571428571" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#2E6F40" stroke="none"/>
+<text x="712.1428571428571" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M3</text>
+<text x="874.7142857142857" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">2 tables</text>
+<text x="712.1428571428571" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Inventory</text>
+<text x="712.1428571428571" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">inventory</text>
+<text x="712.1428571428571" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">inventory_transaction</text>
+<rect x="894.7142857142858" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.4"/>
+<rect x="894.7142857142858" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#6B3FA0" stroke="none"/>
+<rect x="894.7142857142858" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#6B3FA0" stroke="none"/>
+<text x="903.7142857142858" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M4</text>
+<text x="1066.2857142857144" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">4 tables</text>
+<text x="903.7142857142858" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Demand and Orders</text>
+<text x="903.7142857142858" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">customer_order · order_line</text>
+<text x="903.7142857142858" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">order_fulfilment</text>
+<text x="903.7142857142858" y="1210.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">demand_forecast</text>
+<rect x="1086.2857142857142" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#9C6A12" stroke-width="1.4"/>
+<rect x="1086.2857142857142" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#9C6A12" stroke="none"/>
+<rect x="1086.2857142857142" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#9C6A12" stroke="none"/>
+<text x="1095.2857142857142" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M5</text>
+<text x="1257.857142857143" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">6 tables</text>
+<text x="1095.2857142857142" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Transportation</text>
+<text x="1095.2857142857142" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">carrier · vehicle · shipment</text>
+<text x="1095.2857142857142" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">transport_lane · shipment_line</text>
+<text x="1095.2857142857142" y="1210.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">stock_transfer</text>
+<rect x="1277.857142857143" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#A83232" stroke-width="1.4"/>
+<rect x="1277.857142857143" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#A83232" stroke="none"/>
+<rect x="1277.857142857143" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#A83232" stroke="none"/>
+<text x="1286.857142857143" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M6</text>
+<text x="1449.4285714285716" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">4 tables</text>
+<text x="1286.857142857143" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Optimization</text>
+<text x="1286.857142857143" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">optimization_scenario / run</text>
+<text x="1286.857142857143" y="1198.5" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">optimization_result</text>
+<text x="1286.857142857143" y="1210.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">kpi_snapshot</text>
+<rect x="1469.4285714285716" y="1126" width="180.57142857142858" height="108" rx="8" ry="8" fill="#FFFFFF" stroke="#4A5568" stroke-width="1.4"/>
+<rect x="1469.4285714285716" y="1126" width="180.57142857142858" height="25" rx="8" ry="8" fill="#4A5568" stroke="none"/>
+<rect x="1469.4285714285716" y="1142" width="180.57142857142858" height="9" rx="0" ry="0" fill="#4A5568" stroke="none"/>
+<text x="1478.4285714285716" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="start" font-weight="700">M7</text>
+<text x="1641.0000000000002" y="1143.5" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#FFFFFF" text-anchor="end">1 table</text>
+<text x="1478.4285714285716" y="1169" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Security</text>
+<text x="1478.4285714285716" y="1187.0" font-family="Consolas, DejaVu Sans Mono, Courier New, monospace" font-size="8.8" fill="#61756F" text-anchor="start">app_user</text>
+<rect x="320" y="1244" width="1330" height="42" rx="8" ry="8" fill="#0F3D3E" stroke="none"/>
+<text x="336" y="1270" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#E8C67A" text-anchor="start" font-weight="700" letter-spacing="0.6">INTEGRITY AND STORAGE ENGINE</text>
+<text x="1634" y="1270" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.8" fill="#D3E3E1" text-anchor="end">26 tables   ·   39 FOREIGN KEY   ·   32 CHECK   ·   3 generated columns   ·   13 secondary indexes   ·   3 views   ·   ACID / InnoDB</text>
+<line x1="713.4" y1="275" x2="713.4" y2="311" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="724.4" y="297.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#2F4858" text-anchor="start" font-weight="700">user actions, form input</text>
+<line x1="1256.6" y1="311" x2="1256.6" y2="275" stroke="#93A7A2" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="1267.6" y="297.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#6E8580" text-anchor="start">rendered views and charts</text>
+<line x1="713.4" y1="453" x2="713.4" y2="489" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="724.4" y="475.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#2F4858" text-anchor="start" font-weight="700">HTTPS  ·  REST / JSON request</text>
+<line x1="1256.6" y1="489" x2="1256.6" y2="453" stroke="#93A7A2" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="1267.6" y="475.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#6E8580" text-anchor="start">JSON response payload</text>
+<line x1="713.4" y1="649" x2="713.4" y2="685" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="724.4" y="671.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#2F4858" text-anchor="start" font-weight="700">scenario parameters, solve request</text>
+<line x1="1256.6" y1="685" x2="1256.6" y2="649" stroke="#93A7A2" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="1267.6" y="671.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#6E8580" text-anchor="start">recommendations, forecasts, KPIs</text>
+<line x1="713.4" y1="877" x2="713.4" y2="913" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="724.4" y="899.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#2F4858" text-anchor="start" font-weight="700">entity operations via DAO</text>
+<line x1="1256.6" y1="913" x2="1256.6" y2="877" stroke="#93A7A2" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="1267.6" y="899.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#6E8580" text-anchor="start">mapped result objects</text>
+<line x1="713.4" y1="1045" x2="713.4" y2="1081" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="724.4" y="1067.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#2F4858" text-anchor="start" font-weight="700">parameterised SQL over pooled connections</text>
+<line x1="1256.6" y1="1081" x2="1256.6" y2="1045" stroke="#93A7A2" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="1267.6" y="1067.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10" fill="#6E8580" text-anchor="start">rows, views, constraint feedback</text>
+<rect x="44" y="316" width="232" height="328" rx="12" ry="12" fill="#FBF2E0" stroke="#9C6A12" stroke-width="1.6"/>
+<text x="60" y="342" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12" fill="#9C6A12" text-anchor="start" font-weight="700" letter-spacing="0.5">EXTERNAL INTERFACES</text>
+<text x="60" y="360" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#61756F" text-anchor="start" font-style="italic">Ingested into Layer 3 by batch job or API</text>
+<rect x="56" y="374" width="208" height="55.2" rx="7" ry="7" fill="#FFFFFF" stroke="#9C6A12" stroke-width="1.2"/>
+<text x="66" y="393" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">ERP / WMS Feed</text>
+<text x="66" y="408.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Master data synchronisation</text>
+<text x="66" y="420.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Purchase orders and receipts</text>
+<rect x="56" y="440.2" width="208" height="55.2" rx="7" ry="7" fill="#FFFFFF" stroke="#9C6A12" stroke-width="1.2"/>
+<text x="66" y="459.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Carrier Rate Cards</text>
+<text x="66" y="474.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">cost_per_km, cost_per_kg</text>
+<text x="66" y="486.8" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Transit-time commitments</text>
+<rect x="56" y="506.4" width="208" height="55.2" rx="7" ry="7" fill="#FFFFFF" stroke="#9C6A12" stroke-width="1.2"/>
+<text x="66" y="525.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Fuel and Toll Index</text>
+<text x="66" y="540.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Drives congestion_index</text>
+<text x="66" y="553.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">and fuel_price_index</text>
+<rect x="56" y="572.6" width="208" height="67.8" rx="7" ry="7" fill="#FFFFFF" stroke="#9C6A12" stroke-width="1.2"/>
+<text x="66" y="591.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">GPS Telematics</text>
+<text x="66" y="606.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Live shipment position</text>
+<text x="66" y="619.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Cold-chain temperature</text>
+<text x="66" y="631.8000000000001" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">(future scope)</text>
+<line x1="280" y1="564" x2="300" y2="564" stroke="#9C6A12" stroke-width="2.2" stroke-dasharray="7 4" marker-end="url(#ae)"/>
+<rect x="1706" y="316" width="250" height="984" rx="12" ry="12" fill="#F2ECF9" stroke="#6B3FA0" stroke-width="1.6"/>
+<text x="1722" y="342" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="12" fill="#6B3FA0" text-anchor="start" font-weight="700" letter-spacing="0.5">CROSS-CUTTING CONCERNS</text>
+<text x="1722" y="360" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.5" fill="#61756F" text-anchor="start" font-style="italic">Applied at every layer below</text>
+<rect x="1718" y="374" width="226" height="67.2" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="393" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Security and Access</text>
+<text x="1728" y="408.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">bcrypt password hashes</text>
+<text x="1728" y="420.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Role-based row scoping on</text>
+<text x="1728" y="432.8" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">warehouse_id  ·  TLS in transit</text>
+<rect x="1718" y="451.2" width="226" height="67.2" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="470.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Audit and Traceability</text>
+<text x="1728" y="485.2" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">inventory_transaction is an</text>
+<text x="1728" y="497.59999999999997" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">immutable signed ledger —</text>
+<text x="1728" y="510.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">every movement is replayable</text>
+<rect x="1718" y="528.4" width="226" height="67.2" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="547.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Data Integrity</text>
+<text x="1728" y="562.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Constraints enforced in-engine,</text>
+<text x="1728" y="574.8" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">not in application code</text>
+<text x="1728" y="587.1999999999999" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Generated columns cannot drift</text>
+<rect x="1718" y="605.6" width="226" height="54.8" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="624.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Backup and Recovery</text>
+<text x="1728" y="639.6" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">mysqldump snapshots</text>
+<text x="1728" y="652.0" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Binary-log point-in-time restore</text>
+<rect x="1718" y="670.4" width="226" height="54.8" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="689.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Monitoring and Logging</text>
+<text x="1728" y="704.4" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Slow-query log, EXPLAIN profiling</text>
+<text x="1728" y="716.8" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">kpi_snapshot trend history</text>
+<rect x="1718" y="735.1999999999999" width="226" height="54.8" rx="7" ry="7" fill="#FFFFFF" stroke="#6B3FA0" stroke-width="1.2"/>
+<text x="1728" y="754.1999999999999" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="11.5" fill="#12312F" text-anchor="start" font-weight="700">Scalability Path</text>
+<text x="1728" y="769.1999999999999" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Read replicas for reporting</text>
+<text x="1728" y="781.5999999999999" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="9.2" fill="#61756F" text-anchor="start">Range-partition the ledger by date</text>
+<line x1="1702" y1="382.0" x2="1670" y2="382.0" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)" opacity="0.75"/>
+<line x1="1702" y1="569.0" x2="1670" y2="569.0" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)" opacity="0.75"/>
+<line x1="1702" y1="781.0" x2="1670" y2="781.0" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)" opacity="0.75"/>
+<line x1="1702" y1="979.0" x2="1670" y2="979.0" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)" opacity="0.75"/>
+<line x1="1702" y1="1193.0" x2="1670" y2="1193.0" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)" opacity="0.75"/>
+<rect x="44" y="1326" width="1912" height="52" rx="8" ry="8" fill="#F6F8F8" stroke="#DCE5E3" stroke-width="1.2"/>
+<line x1="64" y1="1352" x2="98" y2="1352" stroke="#2F4858" stroke-width="2.2" marker-end="url(#ad)"/>
+<text x="108" y="1356" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="start">downward request / control flow</text>
+<line x1="314" y1="1352" x2="348" y2="1352" stroke="#93A7A2" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#au)"/>
+<text x="358" y="1356" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="start">upward response / data flow</text>
+<line x1="554" y1="1352" x2="588" y2="1352" stroke="#6B3FA0" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ax)"/>
+<text x="598" y="1356" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="start">cross-cutting concern applied to layer</text>
+<line x1="844" y1="1352" x2="878" y2="1352" stroke="#9C6A12" stroke-width="2" stroke-dasharray="7 4" marker-end="url(#ae)"/>
+<text x="888" y="1356" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#61756F" text-anchor="start">external system interface</text>
+<text x="1936" y="1356" font-family="Calibri, Carlito, Liberation Sans, Arial, sans-serif" font-size="10.5" fill="#8C9C97" text-anchor="end">Each layer talks only to the layer directly beneath it  ·  Aayushman Ghatak</text>
+</svg>
